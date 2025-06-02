@@ -1,5 +1,5 @@
 🔗 Link Finder
-A Python tool for bug bounty hunters to extract and analyze links from web pages, designed to uncover endpoints, hidden APIs, and potential vulnerabilities. 🚀
+A Python tool for Pentesting to extract and analyze links from web pages, designed to uncover endpoints, hidden APIs, and potential vulnerabilities. 🚀
 ✨ Features
 
 🔍 Extracts links from HTML, JavaScript, and other web content.
@@ -63,13 +63,4 @@ Required for running the script
 Example:
 ```python link-finder.py -u https://example.com -o links.txt```
 
-🛡️ Security Notes
-
-🚫 Avoid hardcoding sensitive data (e.g., API keys) in the script.
-🔒 Validate inputs to prevent vulnerabilities like SSRF.
-📜 Use responsibly within bug bounty program scopes.
-
-🤝 Contributing
-Pull requests are welcome! Please test changes thoroughly to avoid introducing vulnerabilities. 🙌
-📄 License
-MIT License
+Enjoy🚀
