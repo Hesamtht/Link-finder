@@ -19,49 +19,49 @@ Installation Command
 
 Katana
 Web crawler for endpoint discovery
-go install github.com/projectdiscovery/katana/cmd/katana@latest
+```go install github.com/projectdiscovery/katana/cmd/katana@latest```
 
 
 GoSpider
 Fast web crawler for link extraction
-go install github.com/jaeles-project/gospider@latest
+```go install github.com/jaeles-project/gospider@latest```
 
 
 GAU
 Fetches URLs from AlienVault OTX
-go install github.com/lc/gau/v2/cmd/gau@latest
+```go install github.com/lc/gau/v2/cmd/gau@latest```
 
 
 Waybackurls
 Retrieves archived URLs
-go install github.com/tomnomnom/waybackurls@latest
+```go install github.com/tomnomnom/waybackurls@latest```
 
 
 HTTPX
 HTTP client for URL probing
-go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+```go install github.com/projectdiscovery/httpx/cmd/httpx@latest```
 
 
 Python 3.x
 Required for running the script
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 📦 Installation
-git clone https://github.com/Hesamtht/Link-finder.git
-cd Link-finder
+```git clone https://github.com/Hesamtht/Link-finder.git```
+```cd Link-finder```
 # Install Go tools (see table above)
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 🚀 Usage
-python link-finder.py -u <target-url> -o <output-file>
+```python link-finder.py -u <target-url> -o <output-file>```
 
 
--u: Target URL to scan.
--o: Output file for extracted links.
+```-u: Target URL to scan.```
+```-o: Output file for extracted links.```
 
 Example:
-python link-finder.py -u https://example.com -o links.txt
+```python link-finder.py -u https://example.com -o links.txt```
 
 🛡️ Security Notes
 
